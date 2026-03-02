@@ -43,5 +43,13 @@
         ]
       }
     ]
+  },
+  "agents": {
+    "development-planner": {
+      "type": "custom",
+      "path": ".claude/agents/dev/development-planner.md",
+      "description": "PRD를 분석하여 체계적인 ROADMAP.md 파일을 생성하는 에이전트",
+      "model": "sonnet"
+    }
   }
 }
